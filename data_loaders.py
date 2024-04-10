@@ -5,18 +5,6 @@ from skimage import io
 import skimage
 import sys
 
-def LoadAstronaut():
-
-    return skimage.util.img_as_ubyte(skimage.color.rgb2gray(skimage.data.astronaut()))
-
-
-def LoadCameraMan():
-
-    return skimage.util.img_as_ubyte(skimage.data.camera())
-
-def LoadCoins():
-
-    return skimage.util.img_as_ubyte(skimage.data.coins())
 
 def LoadFemur():
 
